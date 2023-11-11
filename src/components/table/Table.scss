@@ -1,0 +1,86 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #151518;
+}
+
+th{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.15px;
+    padding: 20px 16px;
+    background-color: #87CEEB;
+    &:first-child{
+        text-align: start;
+    }
+    &:not(:first-child){
+        text-align: end;
+    }
+}
+
+td{
+    border-bottom: 1px solid #515151;
+    padding: 16px 16px !important;
+    >button{
+        border: none;
+        background-color: transparent;
+        color: #fff;
+        font-size: 24px;
+        vertical-align: middle;        
+        margin-right: 20px;
+    }
+    &:first-child{
+        padding: 0 16px;
+    }
+    &:not(:first-child){
+        color: #FFF;
+        text-align: right;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20.02px; /* 143% */
+        letter-spacing: 0.15px;
+        text-align: end;
+    }
+    .table__link{
+        text-decoration: none;
+        >div{
+            >img{
+                width: 50px;
+                aspect-ratio: 1/1;
+                border-radius: 50%;
+            }
+            display: flex;
+            gap: 0 15px;
+            align-items: center;
+            >div{
+                :first-child{
+                    color: #FFF;
+                    font-family: Roboto;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 31.46px; /* 143% */
+                    letter-spacing: 0.15px;
+                    text-transform: uppercase;
+                }
+                :last-child{
+                    color: #A9A9A9;
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20.02px; /* 143% */
+                    letter-spacing: 0.15px;
+                }
+            }
+        }
+    }
+}

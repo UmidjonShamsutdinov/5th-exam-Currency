@@ -1,0 +1,24 @@
+nav{
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    >.logo{
+        flex: 1;
+    }
+    >.nav__elements{
+        display: flex;
+        gap: 0 20px;
+        >select{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: #fff;            
+        }
+        >button{
+            padding: 8px 18px;
+            border: none;
+            background-color: #87CEEB;
+            border-radius: 4px;
+        }
+    }
+}

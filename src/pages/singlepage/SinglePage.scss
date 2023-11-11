@@ -1,0 +1,52 @@
+.single__page-main{
+    display: flex;
+}
+
+
+.single__page-info{
+    max-width: 550px;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    align-items: center;
+    >img{
+        width: 200px;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+    }
+    >h2{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 48px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56.02px; /* 116.708% */
+    }
+    >p{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        letter-spacing: 0.15px;
+    }
+    >div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        >strong{
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 32.02px; /* 133.417% */
+            >span{
+                font-weight: 400;
+            }
+        }
+    }
+}
